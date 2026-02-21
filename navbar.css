@@ -1,0 +1,69 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    padding-top: none;
+}
+.navbarContainer {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+
+/* Main Navbar */
+.navbar {
+  background-color: #a10000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+.logoCircle {
+  width: 80px;
+  height: 65px;
+  background-color:blue;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoIcon {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* Nav Links */
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.navLinks a:hover {
+  opacity: 0.6;
+}
+
+.email {
+  background-color: blue;
+  padding: 15px 22px;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #000;
+}
